@@ -1,6 +1,7 @@
 import socket, subprocess, os;
 
-target =('127.0.0.1',1337)
+host='127.0.0.1',
+port=1337
 s=socket.socket(socket.AF_INET, socket.SOCKET_STREAM)
 s.connect(target)
 
